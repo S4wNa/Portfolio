@@ -8,6 +8,10 @@ import css from "../assets/css2.webp";
 import express from "../assets/express-js.png";
 import html from "../assets/html2.png";
 import tail from "../assets/tailwind.png";
+import vscode from "../assets/vsCode.png";
+import git from "../assets/github.png";
+import Gsap from "../assets/gsap.jpg";
+import postman from "../assets/postman.jpg";
 
 export const images = [
   { img: rust, title: "Rust" },
@@ -20,6 +24,10 @@ export const images = [
   { img: express, title: "Express" },
   { img: html, title: "HTML" },
   { img: tail, title: "Tailwind" },
+  { img: git, title: "Tailwind" },
+  { img: Gsap, title: "Tailwind" },
+  { img: postman, title: "Tailwind" },
+  { img: vscode, title: "Tailwind" },
 ];
 
 // export const images = [

@@ -1,6 +1,7 @@
 import React, { useRef } from "react";
 import First from "../compo/First";
 import Stack from "../compo/Stack";
+import Project from "../compo/Project";
 import { useGSAP } from "@gsap/react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
@@ -36,6 +37,7 @@ function Home() {
       <div ref={stackSection} className="relative z-10">
         <Stack />
       </div>
+      <Project />
     </div>
   );
 }
