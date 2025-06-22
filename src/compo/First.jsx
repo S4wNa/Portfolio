@@ -46,7 +46,7 @@ function First() {
           </div>
           <div
             className="bg-[#9C8068] w-full sm:h-70 h-30 sm:order-3 order-4 flex flex-col
-           rounded-md justify-center items-center"
+           rounded-md justify-center items-center text-stone-800"
           >
             <div className="text-4xl text-center font-bold hidden md:block">
               Socials
@@ -59,10 +59,16 @@ function First() {
               >
                 <FaGithub className="cursor-pointer" />
               </a>
-              <a href="/" target="_blank" rel="noopener noreferrer">
+              <a 
+                href="https://www.instagram.com/s4w_na/"
+                target="_blank"
+                rel="noopener noreferrer">
                 <FaInstagram className="cursor-pointer" />
               </a>
-              <a href="" target="_blank" rel="noopener noreferrer">
+              <a 
+                href="https://x.com/S4w_na" 
+                target="_blank" 
+                rel="noopener noreferrer">
                 <FaXTwitter className="cursor-pointer" />
               </a>
             </div>
@@ -76,15 +82,15 @@ function First() {
           >
             <div
               className=" lg:text-8xl lg:w-105 md:text-7xl md:w-80 font-bold lg:mb-0
-            mb-4 sm:text-5xl sm:w-55 sm:mt-6 lg:mt-0 text-6xl order-1 w-70 "
+            mb-4 sm:text-5xl sm:w-55 sm:mt-6 lg:mt-0 text-6xl order-1 w-70 text-stone-800 "
             >
               Hey there, I'm Mahi
             </div>
-            <div className=" font-medium " ref={spText2}>
+            <div className=" font-medium text-stone-800" ref={spText2}>
               I am a <span className="font-spe text-white"> Self taught </span>{" "}
               Developer
             </div>
-            <div ref={spText3} className="  font-medium ">
+            <div ref={spText3} className=" text-stone-800 font-medium ">
               Based in Paris
             </div>
           </div>
