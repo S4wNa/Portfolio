@@ -9,13 +9,13 @@ function Project() {
     <div className="bg-[#CBBDA3] w-full lg:h-[80vh] md:h-[110vh] xl:h-[70vh] ">
       <div className="flex flex-col justify-center items-center ">
         <h2 className="text-7xl text-stone-800 my-16 font-bold">Projects</h2>
-        <div className="grid lg:gap-24 lg:grid-cols-3 md:grid-cols-2 gap-8">
+        <div className="grid  md:gap-12 lg:gap-24 lg:grid-cols-3 md:grid-cols-2 gap-8">
           {" "}
           {proj.map((it) => (
             <div>
               <a href={`${it.link}`} target="_blank" rel="noopener noreferrer">
                 <div
-                  className="w-70 h-50 bg-cover bg-center opacity-70 rounded-md transform transition-all duration-500 ease-out hover:scale-125"
+                  className="w-70 h-50 bg-cover bg-center opacity-70 rounded-md transform transition-all duration-500 ease-out hover:scale-110"
                   style={{ backgroundImage: `url(${it.imgUrl})` }}
                 ></div>
               </a>
