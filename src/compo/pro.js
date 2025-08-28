@@ -1,6 +1,7 @@
 import url1 from "../assets/tree.png";
 import url2 from "../assets/cook.png";
 import url3 from "../assets/predict.png";
+import url4 from "../assets/book.png";
 
 export const proj = [
   {
@@ -20,5 +21,11 @@ export const proj = [
 
     text: " I built this data scientist project with python and react, in developpement it works but in production there's some problem with the server",
     link: "https://predictireland.netlify.app/",
+  },
+  {
+    imgUrl: url4,
+
+    text: " I built this  CRUD app  with PosgreSQL, supasbase Auth, react, tailwindcss and gsap for the animation",
+    link: "https://bookable-app.netlify.app/",
   },
 ];
