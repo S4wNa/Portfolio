@@ -7,7 +7,7 @@ export const proj = [
   {
     imgUrl: url1,
 
-    text: " I made this app with Tauri(Rust and React),it create a ASCII path of any folder u drop on it, but when u try to download it it gives a warning since i didn't pay for SSL",
+    text: " I made this app with Tauri ( Rust and React ), it create a ASCII path of any folder u drop on it, but when u try to download it it gives a warning since i didn't pay for SSL",
     link: "https://ascii-tree-visualizer.netlify.app/",
   },
   {
